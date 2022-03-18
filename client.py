@@ -21,7 +21,7 @@ class ClientFactory(ClFactory):
         return Client()
 
 if __name__ == "__main__":
-    endpoint = TCP4ClientEndpoint(reactor, '192.168.1.181', 2000)
+    endpoint = TCP4ClientEndpoint(reactor, localhost, 2000)
     endpoint.connect(ClientFactory())
     reactor.run()
 
