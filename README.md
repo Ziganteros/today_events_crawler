@@ -1,9 +1,9 @@
 # today_events_crawler
 
 this is a simple architecture that does a simple action:
-- a client make a call on a server 
-- the server scrapes wikipedia getting events happened in current date
-- then server send back to client the list of events
+- client makes a call on the server 
+- the server scrapes wikipedia getting events happened in the current date
+- then server sends back to the client the list of events
 
-there is no reason to use this software, just go on wikipedia and digit current date in searching bar.
+If you want to save time don't use this software, just go on wikipedia and digit current date in searching bar. :-)
 
